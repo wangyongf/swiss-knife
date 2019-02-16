@@ -249,7 +249,7 @@ class _MinePageState extends State<MinePage> {
   _buildSettings() {
     return InkWell(
       onTap: () {
-        Navigator.of(context).pushNamed(Routes.WAN_ANDROID_SETTINGS_PAGE);
+        Navigator.of(context).pushNamed(Routes.SETTINGS_PAGE);
       },
       child: Container(
         color: Colors.white,
