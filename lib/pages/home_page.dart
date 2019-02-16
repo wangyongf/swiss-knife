@@ -31,9 +31,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     // 初始化导航图标
     _navigationViews = <NavigationIconView>[
       NavigationIconView(
-          icon: Icon(Icons.assessment), title: Text('首页'), vsync: this),
+          icon: Icon(Icons.assessment), title: Text('精选'), vsync: this),
       NavigationIconView(
-          icon: Icon(Icons.access_alarm), title: Text('调试'), vsync: this),
+          icon: Icon(Icons.access_alarm), title: Text('开发'), vsync: this),
       NavigationIconView(
           icon: Icon(Icons.more), title: Text('更多'), vsync: this),
       NavigationIconView(
