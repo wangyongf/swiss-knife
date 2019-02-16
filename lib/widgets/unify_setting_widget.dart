@@ -115,7 +115,7 @@ class UnifySettingWidget extends StatelessWidget {
       return Container();
     }
     return Padding(
-      padding: EdgeInsets.only(top: 3),
+      padding: EdgeInsets.only(top: 5),
       child: subTitle,
     );
   }

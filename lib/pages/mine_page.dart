@@ -64,11 +64,11 @@ class _MinePageState extends State<MinePage> {
             backgroundImage: AssetImage('images/appbar_def_bg.jpeg'),
           ),
           title: Text(
-            UserManager().isLogin() ? UserManager().userName : '点击登录',
+            UserManager().isLogin() ? UserManager().userName : 'Hello, world',
             style: TextStyle(fontSize: 19),
           ),
           subTitle: Text(
-            'Android 开发工程师 @AGreatCompany',
+            '越努力，越幸运',
             style: TextStyle(fontSize: 11, color: Colors.grey),
           ),
           trailing: Icon(
