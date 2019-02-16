@@ -1,4 +1,5 @@
 import 'package:easy_developer/common/routes_name.dart';
+import 'package:easy_developer/pages/GeekListPage.dart';
 import 'package:easy_developer/pages/about_page.dart';
 import 'package:easy_developer/pages/feedback_page.dart';
 import 'package:easy_developer/pages/home_page.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         Routes.SETTINGS_PAGE: (BuildContext context) => SettingsPage(),
         Routes.FEEDBACK_PAGE: (BuildContext context) => FeedbackPage(),
         Routes.ABOUT_PAGE: (BuildContext context) => AboutPage(),
+        Routes.SK_GEEK_LIST_PAGE: (BuildContext context) => GeekListPage(),
       },
     );
   }

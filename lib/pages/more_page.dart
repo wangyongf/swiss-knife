@@ -1,3 +1,4 @@
+import 'package:easy_developer/common/routes_name.dart';
 import 'package:easy_developer/util/toast_utils.dart';
 import 'package:easy_developer/widgets/category_cover_card.dart';
 import 'package:easy_developer/widgets/vertical_icon_view.dart';
@@ -148,7 +149,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+              Navigator.pushNamed(context, Routes.SK_GEEK_LIST_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(left: 8, right: 8),
@@ -185,46 +186,46 @@ class _MorePageState extends State<MorePage> {
         children: <Widget>[
           Expanded(
               child: GestureDetector(
-                onTap: (){
-                  ToastUtils.showToast(context, "功能开发中，敬请期待~");
-                },
-                child: Padding(
-            padding: const EdgeInsets.only(right: 8),
-            child: CategoryCoverCard(
+            onTap: () {
+              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+            },
+            child: Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: CategoryCoverCard(
                 assetBg: "assets/images/white_snake_1.jpeg",
                 title: "全部",
                 subTitle: "All",
+              ),
             ),
-          ),
-              )),
+          )),
           Expanded(
               child: GestureDetector(
-                onTap: (){
-                  ToastUtils.showToast(context, "功能开发中，敬请期待~");
-                },
-                child: Padding(
-            padding: const EdgeInsets.only(left: 8, right: 8),
-            child: CategoryCoverCard(
+            onTap: () {
+              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+            },
+            child: Padding(
+              padding: const EdgeInsets.only(left: 8, right: 8),
+              child: CategoryCoverCard(
                 assetBg: "assets/images/white_snake_2.jpeg",
                 title: "生活",
                 subTitle: "Daily",
+              ),
             ),
-          ),
-              )),
+          )),
           Expanded(
               child: GestureDetector(
-                onTap: () {
-                  ToastUtils.showToast(context, "功能开发中，敬请期待~");
-                },
-                child: Padding(
-            padding: const EdgeInsets.only(left: 8),
-            child: CategoryCoverCard(
+            onTap: () {
+              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+            },
+            child: Padding(
+              padding: const EdgeInsets.only(left: 8),
+              child: CategoryCoverCard(
                 assetBg: "assets/images/white_snake_3.jpeg",
                 title: "工具",
                 subTitle: "Tools",
+              ),
             ),
-          ),
-              )),
+          )),
         ],
       ),
     );
