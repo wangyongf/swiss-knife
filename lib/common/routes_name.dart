@@ -32,4 +32,5 @@ class Routes {
   static const String WAN_ANDROID_DEBUG_PAGE = '/wanandroid/debug-page';
 
   static const String SK_GEEK_LIST_PAGE = '/sk/geek-list-page';
+  static const String SK_TRANSLATE_PAGE = '/sk/translate-page';
 }

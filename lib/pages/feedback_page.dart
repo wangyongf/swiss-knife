@@ -204,7 +204,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
     );
   }
 
-  Container _buildFeedbackContent() {
+  Widget _buildFeedbackContent() {
     return Container(
       color: Colors.white,
       padding: const EdgeInsets.only(top: 10, bottom: 10),

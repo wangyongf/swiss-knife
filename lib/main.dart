@@ -1,9 +1,10 @@
 import 'package:easy_developer/common/routes_name.dart';
-import 'package:easy_developer/pages/GeekListPage.dart';
 import 'package:easy_developer/pages/about_page.dart';
 import 'package:easy_developer/pages/feedback_page.dart';
+import 'package:easy_developer/pages/geek_list_page.dart';
 import 'package:easy_developer/pages/home_page.dart';
 import 'package:easy_developer/pages/settings_page.dart';
+import 'package:easy_developer/pages/translate_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         Routes.FEEDBACK_PAGE: (BuildContext context) => FeedbackPage(),
         Routes.ABOUT_PAGE: (BuildContext context) => AboutPage(),
         Routes.SK_GEEK_LIST_PAGE: (BuildContext context) => GeekListPage(),
+        Routes.SK_TRANSLATE_PAGE: (BuildContext context) => TranslatePage(),
       },
     );
   }
