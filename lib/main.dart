@@ -1,5 +1,6 @@
 import 'package:easy_developer/common/routes_name.dart';
 import 'package:easy_developer/pages/about_page.dart';
+import 'package:easy_developer/pages/emoji_page.dart';
 import 'package:easy_developer/pages/feedback_page.dart';
 import 'package:easy_developer/pages/geek_list_page.dart';
 import 'package:easy_developer/pages/home_page.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         Routes.ABOUT_PAGE: (BuildContext context) => AboutPage(),
         Routes.SK_GEEK_LIST_PAGE: (BuildContext context) => GeekListPage(),
         Routes.SK_TRANSLATE_PAGE: (BuildContext context) => TranslatePage(),
+        Routes.SK_EMOJI_PAGE: (BuildContext context) => EmojiPage(),
       },
     );
   }

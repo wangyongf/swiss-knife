@@ -33,4 +33,5 @@ class Routes {
 
   static const String SK_GEEK_LIST_PAGE = '/sk/geek-list-page';
   static const String SK_TRANSLATE_PAGE = '/sk/translate-page';
+  static const String SK_EMOJI_PAGE = '/sk/emoji-page';
 }

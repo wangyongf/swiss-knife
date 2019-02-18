@@ -33,7 +33,7 @@ class _MorePageState extends State<MorePage> {
               Expanded(
                   child: GestureDetector(
                 onTap: () {
-                  ToastUtils.showToast(context, "功能开发中，敬请期待~");
+                  Navigator.of(context).pushNamed(Routes.SK_EMOJI_PAGE);
                 },
                 child: VerticalIconView(
                   icon: Icons.insert_emoticon,
