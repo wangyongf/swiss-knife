@@ -33,7 +33,7 @@ class _MorePageState extends State<MorePage> {
               Expanded(
                   child: GestureDetector(
                 onTap: () {
-                  Navigator.of(context).pushNamed(Routes.SK_EMOJI_PAGE);
+                  Navigator.of(context).pushNamed(Routes.SK_EMOJI_LIST_PAGE);
                 },
                 child: VerticalIconView(
                   icon: Icons.insert_emoticon,
