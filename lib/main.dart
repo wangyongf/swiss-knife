@@ -2,11 +2,12 @@ import 'package:easy_developer/common/routes_name.dart';
 import 'package:easy_developer/pages/about_page.dart';
 import 'package:easy_developer/pages/emoji_customization_page.dart';
 import 'package:easy_developer/pages/emoji_list_page.dart';
-import 'package:easy_developer/pages/emoji_page.dart';
 import 'package:easy_developer/pages/feedback_page.dart';
 import 'package:easy_developer/pages/geek_list_page.dart';
 import 'package:easy_developer/pages/home_page.dart';
+import 'package:easy_developer/pages/life_list_page.dart';
 import 'package:easy_developer/pages/settings_page.dart';
+import 'package:easy_developer/pages/tools_list_page.dart';
 import 'package:easy_developer/pages/translate_page.dart';
 import 'package:flutter/material.dart';
 
@@ -28,10 +29,11 @@ class MyApp extends StatelessWidget {
         Routes.ABOUT_PAGE: (BuildContext context) => AboutPage(),
         Routes.SK_GEEK_LIST_PAGE: (BuildContext context) => GeekListPage(),
         Routes.SK_TRANSLATE_PAGE: (BuildContext context) => TranslatePage(),
-        Routes.SK_EMOJI_PAGE: (BuildContext context) => EmojiPage(),
         Routes.SK_EMOJI_LIST_PAGE: (BuildContext context) => EmojiListPage(),
         Routes.SK_EMOJI_CUSTOMIZATION_PAGE: (BuildContext context) =>
             EmojiCustomizationPage(),
+        Routes.SK_TOOLS_LIST_PAGE: (BuildContext context) => ToolsListPage(),
+        Routes.SK_LIFE_LIST_PAGE: (BuildContext context) => LifeListPage(),
       },
     );
   }

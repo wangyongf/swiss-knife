@@ -2,12 +2,12 @@ import 'package:easy_developer/util/toast_utils.dart';
 import 'package:easy_developer/widgets/SimpleDoubleColumn.dart';
 import 'package:flutter/material.dart';
 
-class EmojiPage extends StatefulWidget {
+class ToolsListPage extends StatefulWidget {
   @override
-  _EmojiPageState createState() => _EmojiPageState();
+  _ToolsListPageState createState() => _ToolsListPageState();
 }
 
-class _EmojiPageState extends State<EmojiPage> {
+class _ToolsListPageState extends State<ToolsListPage> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -24,7 +24,7 @@ class _EmojiPageState extends State<EmojiPage> {
                   flexibleSpace: FlexibleSpaceBar(
                     centerTitle: false,
                     title: Text(
-                      "全部",
+                      "工具",
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
                     background: Image.network(
