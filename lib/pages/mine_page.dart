@@ -1,8 +1,8 @@
-import 'package:easy_developer/common/routes_name.dart';
-import 'package:easy_developer/manager/user_manager.dart';
-import 'package:easy_developer/pages/feedback_page.dart';
-import 'package:easy_developer/util/toast_utils.dart';
-import 'package:easy_developer/widgets/unify_setting_widget.dart';
+import 'package:swiss_knife/common/routes_name.dart';
+import 'package:swiss_knife/manager/user_manager.dart';
+import 'package:swiss_knife/pages/feedback_page.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
+import 'package:swiss_knife/widgets/unify_setting_widget.dart';
 import 'package:flutter/material.dart';
 
 /// 我的 Tab

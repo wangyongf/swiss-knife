@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:dio/dio.dart';
-import 'package:easy_developer/data/net/swissknife_api.dart';
-import 'package:easy_developer/util/date_utils.dart';
-import 'package:easy_developer/util/sp_utils.dart';
+import 'package:swiss_knife/data/net/swissknife_api.dart';
+import 'package:swiss_knife/util/date_utils.dart';
+import 'package:swiss_knife/util/sp_utils.dart';
 
 class UserManager {
   String userName;

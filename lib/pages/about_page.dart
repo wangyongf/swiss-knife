@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:android_intent/android_intent.dart';
-import 'package:easy_developer/common/routes_name.dart';
-import 'package:easy_developer/util/divider_helper.dart';
-import 'package:easy_developer/util/toast_utils.dart';
-import 'package:easy_developer/widgets/unify_setting_widget.dart';
+import 'package:swiss_knife/common/routes_name.dart';
+import 'package:swiss_knife/util/divider_helper.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
+import 'package:swiss_knife/widgets/unify_setting_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 import 'package:share/share.dart';

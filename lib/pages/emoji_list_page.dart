@@ -1,5 +1,5 @@
-import 'package:easy_developer/pages/emoji_customization_page.dart';
-import 'package:easy_developer/util/toast_utils.dart';
+import 'package:swiss_knife/pages/emoji_customization_page.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
 import 'package:flutter/material.dart';
 
 class EmojiListPage extends StatefulWidget {

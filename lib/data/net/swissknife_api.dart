@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:cookie_jar/cookie_jar.dart';
 import 'package:dio/dio.dart';
-import 'package:easy_developer/data/net/dio_factory.dart';
-import 'package:easy_developer/data/net/url_host.dart';
-import 'package:easy_developer/data/net/url_path.dart';
-import 'package:easy_developer/manager/user_manager.dart';
+import 'package:swiss_knife/data/net/dio_factory.dart';
+import 'package:swiss_knife/data/net/url_host.dart';
+import 'package:swiss_knife/data/net/url_path.dart';
+import 'package:swiss_knife/manager/user_manager.dart';
 import 'package:path_provider/path_provider.dart';
 
 // TODO: 还没找到一个自认为完美的缓存解决方案？
@@ -76,7 +76,8 @@ class SwissKnifeApi {
     };
     Directory tempDir = await getTemporaryDirectory();
     String tempPath = tempDir.path + "/cookie";
-    dio.cookieJar = PersistCookieJar(tempPath);
+    /// TODO: what happended here?
+    dio.cookieJar = PersistCookieJar(/*tempPath*/);
     return dio;
   }
 

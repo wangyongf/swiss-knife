@@ -1,5 +1,5 @@
-import 'package:easy_developer/util/toast_utils.dart';
-import 'package:easy_developer/widgets/SimpleDoubleColumn.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
+import 'package:swiss_knife/widgets/simple_double_column.dart';
 import 'package:flutter/material.dart';
 
 class LifeListPage extends StatefulWidget {

@@ -1,14 +1,14 @@
-import 'package:easy_developer/common/routes_name.dart';
-import 'package:easy_developer/pages/about_page.dart';
-import 'package:easy_developer/pages/emoji_customization_page.dart';
-import 'package:easy_developer/pages/emoji_list_page.dart';
-import 'package:easy_developer/pages/feedback_page.dart';
-import 'package:easy_developer/pages/geek_list_page.dart';
-import 'package:easy_developer/pages/home_page.dart';
-import 'package:easy_developer/pages/life_list_page.dart';
-import 'package:easy_developer/pages/settings_page.dart';
-import 'package:easy_developer/pages/tools_list_page.dart';
-import 'package:easy_developer/pages/translate_page.dart';
+import 'package:swiss_knife/common/routes_name.dart';
+import 'package:swiss_knife/pages/about_page.dart';
+import 'package:swiss_knife/pages/emoji_customization_page.dart';
+import 'package:swiss_knife/pages/emoji_list_page.dart';
+import 'package:swiss_knife/pages/feedback_page.dart';
+import 'package:swiss_knife/pages/geek_list_page.dart';
+import 'package:swiss_knife/pages/home_page.dart';
+import 'package:swiss_knife/pages/life_list_page.dart';
+import 'package:swiss_knife/pages/settings_page.dart';
+import 'package:swiss_knife/pages/tools_list_page.dart';
+import 'package:swiss_knife/pages/translate_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Easy Developer',
+      title: 'Swiss Knife',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

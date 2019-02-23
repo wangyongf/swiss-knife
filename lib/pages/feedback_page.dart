@@ -1,5 +1,5 @@
-import 'package:easy_developer/data/net/swissknife_api.dart';
-import 'package:easy_developer/util/toast_utils.dart';
+import 'package:swiss_knife/data/net/swissknife_api.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
 import 'package:flutter/material.dart';
 
 class FeedbackPage extends StatefulWidget {

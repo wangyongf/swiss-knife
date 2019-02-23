@@ -1,8 +1,8 @@
-import 'package:easy_developer/pages/debug_page.dart';
-import 'package:easy_developer/pages/index_page.dart';
-import 'package:easy_developer/pages/mine_page.dart';
-import 'package:easy_developer/pages/more_page.dart';
-import 'package:easy_developer/widgets/navigation_icon_view.dart';
+import 'package:swiss_knife/pages/debug_page.dart';
+import 'package:swiss_knife/pages/index_page.dart';
+import 'package:swiss_knife/pages/mine_page.dart';
+import 'package:swiss_knife/pages/more_page.dart';
+import 'package:swiss_knife/widgets/navigation_icon_view.dart';
 import 'package:flutter/material.dart';
 
 /// 应用入口页面（包含三大 Tab）

@@ -1,4 +1,4 @@
-import 'package:easy_developer/util/toast_utils.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
 import 'package:flutter/material.dart';
 
 class TranslatePage extends StatefulWidget {

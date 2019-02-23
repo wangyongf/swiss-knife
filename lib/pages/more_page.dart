@@ -1,7 +1,7 @@
-import 'package:easy_developer/common/routes_name.dart';
-import 'package:easy_developer/util/toast_utils.dart';
-import 'package:easy_developer/widgets/category_cover_card.dart';
-import 'package:easy_developer/widgets/vertical_icon_view.dart';
+import 'package:swiss_knife/common/routes_name.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
+import 'package:swiss_knife/widgets/category_cover_card.dart';
+import 'package:swiss_knife/widgets/vertical_icon_view.dart';
 import 'package:flutter/material.dart';
 
 /// 更多 Tab

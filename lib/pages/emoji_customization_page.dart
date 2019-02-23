@@ -1,4 +1,4 @@
-import 'package:easy_developer/util/toast_utils.dart';
+import 'package:swiss_knife/util/toast_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_material_color_picker/flutter_material_color_picker.dart';
 import 'package:share/share.dart';

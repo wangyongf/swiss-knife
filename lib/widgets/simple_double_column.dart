@@ -1,4 +1,4 @@
-import 'package:easy_developer/util/text_utils.dart';
+import 'package:swiss_knife/util/text_utils.dart';
 import 'package:flutter/material.dart';
 
 class SimpleDoubleColumn extends StatelessWidget {
