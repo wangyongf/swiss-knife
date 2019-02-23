@@ -40,4 +40,5 @@ class Routes {
   static const String SK_LIFE_LIST_PAGE = '/sk/life-list-page';
   static const String SK_APP_MANAGEMENT_PAGE = '/sk/app-management-page';
   static const String SK_IMAGE_SPLIT_PAGE = '/sk/image-split-page';
+  static const String SK_LANGUAGE_SELECTOR_PAGE = '/sk/language-selector-page';
 }

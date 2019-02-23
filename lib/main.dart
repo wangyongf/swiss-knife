@@ -7,6 +7,7 @@ import 'package:swiss_knife/pages/feedback_page.dart';
 import 'package:swiss_knife/pages/geek_list_page.dart';
 import 'package:swiss_knife/pages/home_page.dart';
 import 'package:swiss_knife/pages/image_split_page.dart';
+import 'package:swiss_knife/pages/language_selector_page.dart';
 import 'package:swiss_knife/pages/life_list_page.dart';
 import 'package:swiss_knife/pages/settings_page.dart';
 import 'package:swiss_knife/pages/tools_list_page.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         Routes.SK_LIFE_LIST_PAGE: (BuildContext context) => LifeListPage(),
         Routes.SK_APP_MANAGEMENT_PAGE: (BuildContext context) => AppManagementPage(),
         Routes.SK_IMAGE_SPLIT_PAGE: (BuildContext context) => ImageSplitPage(),
+        Routes.SK_LANGUAGE_SELECTOR_PAGE: (BuildContext context) => LanguageSelectorPage(),
       },
     );
   }

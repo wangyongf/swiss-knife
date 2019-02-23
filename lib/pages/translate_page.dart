@@ -1,3 +1,4 @@
+import 'package:swiss_knife/common/routes_name.dart';
 import 'package:swiss_knife/util/toast_utils.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,8 @@ class _TranslatePageState extends State<TranslatePage> {
               Expanded(
                   child: RaisedButton(
                       onPressed: () {
-                        ToastUtils.showToast(context, "功能开发中，敬请期待~");
+                        Navigator.of(context)
+                            .pushNamed(Routes.SK_LANGUAGE_SELECTOR_PAGE);
                       },
                       child: Text("智能检测"))),
 
