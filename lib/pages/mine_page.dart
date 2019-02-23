@@ -61,7 +61,7 @@ class _MinePageState extends State<MinePage> {
           padding: EdgeInsets.only(top: 10, bottom: 10),
           leading: CircleAvatar(
             radius: 22,
-            backgroundImage: AssetImage('images/appbar_def_bg.jpeg'),
+            backgroundImage: AssetImage('assets/images/mountains.jpg'),
           ),
           title: Text(
             UserManager().isLogin() ? UserManager().userName : 'Hello, world',

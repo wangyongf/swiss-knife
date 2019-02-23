@@ -1,5 +1,6 @@
 import 'package:swiss_knife/common/routes_name.dart';
 import 'package:swiss_knife/pages/about_page.dart';
+import 'package:swiss_knife/pages/app_management_page.dart';
 import 'package:swiss_knife/pages/emoji_customization_page.dart';
 import 'package:swiss_knife/pages/emoji_list_page.dart';
 import 'package:swiss_knife/pages/feedback_page.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
             EmojiCustomizationPage(),
         Routes.SK_TOOLS_LIST_PAGE: (BuildContext context) => ToolsListPage(),
         Routes.SK_LIFE_LIST_PAGE: (BuildContext context) => LifeListPage(),
+        Routes.SK_APP_MANAGEMENT_PAGE: (BuildContext context) => AppManagementPage(),
       },
     );
   }

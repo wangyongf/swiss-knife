@@ -38,4 +38,5 @@ class Routes {
   static const String SK_EMOJI_LIST_PAGE = '/sk/emoji-list-page';
   static const String SK_EMOJI_CUSTOMIZATION_PAGE = '/sk/emoji-customization-page';
   static const String SK_LIFE_LIST_PAGE = '/sk/life-list-page';
+  static const String SK_APP_MANAGEMENT_PAGE = '/sk/app-management-page';
 }
