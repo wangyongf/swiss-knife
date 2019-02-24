@@ -43,24 +43,33 @@ class _ImageSplitPageState extends State<ImageSplitPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        leading: GestureDetector(
-          onTap: () {
-            Navigator.of(context).pop();
-          },
-          child: Padding(
-            padding: const EdgeInsets.all(12.0),
-            child: Icon(Icons.arrow_back),
+    return WillPopScope(
+      onWillPop: () {
+        if (_isSelectMode) {
+          _showClearSelectedTips();
+          return Future.value(false);
+        }
+        return Future.value(true);
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          leading: GestureDetector(
+            onTap: () {
+              Navigator.of(context).pop();
+            },
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Icon(Icons.arrow_back),
+            ),
           ),
+          title: Text("图片拼接"),
+          actions: _getActions(),
         ),
-        title: Text("图片拼接"),
-        actions: _getActions(),
+        body: _buildBody(),
+        floatingActionButton: FloatingActionButton(
+            child: _isSelectMode ? Icon(Icons.check) : Icon(Icons.image),
+            onPressed: _isSelectMode ? _imageSplit : _getImage),
       ),
-      body: _buildBody(),
-      floatingActionButton: FloatingActionButton(
-          child: _isSelectMode ? Icon(Icons.check) : Icon(Icons.image),
-          onPressed: _isSelectMode ? _imageSplit : _getImage),
     );
   }
 
