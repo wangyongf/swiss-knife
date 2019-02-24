@@ -43,7 +43,8 @@ class _MorePageState extends State<MorePage> {
               Expanded(
                   child: GestureDetector(
                 onTap: () {
-                  Navigator.of(context).pushNamed(Routes.SK_APP_MANAGEMENT_PAGE);
+                  Navigator.of(context)
+                      .pushNamed(Routes.SK_APP_MANAGEMENT_PAGE);
                 },
                 child: VerticalIconView(
                   icon: Icons.apps,
@@ -83,7 +84,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+              Navigator.of(context).pushNamed(Routes.SK_WANGYONGF_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(right: 8),
@@ -97,7 +98,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+              Navigator.of(context).pushNamed(Routes.SK_AWESOME_DEVELOPER_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(left: 8, right: 8),
@@ -135,7 +136,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+              Navigator.of(context).pushNamed(Routes.SK_SYSTEM_LIST_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(right: 8),
@@ -163,7 +164,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+              Navigator.of(context).pushNamed(Routes.SK_VALENTINE_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(left: 8),
@@ -187,7 +188,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              ToastUtils.showToast(context, "功能开发中，敬请期待~");
+              Navigator.of(context).pushNamed(Routes.SK_ALL_TOOLS_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(right: 8),
@@ -201,7 +202,7 @@ class _MorePageState extends State<MorePage> {
           Expanded(
               child: GestureDetector(
             onTap: () {
-              Navigator.of(context).pushNamed(Routes.SK_LIFE_LIST_PAGE);
+              Navigator.of(context).pushNamed(Routes.SK_DAILY_LIST_PAGE);
             },
             child: Padding(
               padding: const EdgeInsets.only(left: 8, right: 8),

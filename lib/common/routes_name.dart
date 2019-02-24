@@ -37,8 +37,13 @@ class Routes {
   static const String SK_TOOLS_LIST_PAGE = '/sk/tools-list-page';
   static const String SK_EMOJI_LIST_PAGE = '/sk/emoji-list-page';
   static const String SK_EMOJI_CUSTOMIZATION_PAGE = '/sk/emoji-customization-page';
-  static const String SK_LIFE_LIST_PAGE = '/sk/life-list-page';
+  static const String SK_DAILY_LIST_PAGE = '/sk/daily-list-page';
   static const String SK_APP_MANAGEMENT_PAGE = '/sk/app-management-page';
   static const String SK_IMAGE_SPLIT_PAGE = '/sk/image-split-page';
   static const String SK_LANGUAGE_SELECTOR_PAGE = '/sk/language-selector-page';
+  static const String SK_ALL_TOOLS_PAGE = '/sk/all-tools-page';
+  static const String SK_SYSTEM_LIST_PAGE = '/sk/system-list-page';
+  static const String SK_VALENTINE_PAGE = '/sk/valentine-page';
+  static const String SK_WANGYONGF_PAGE = '/sk/wangyongf-page';
+  static const String SK_AWESOME_DEVELOPER_PAGE = '/sk/awesome-developer-page';
 }

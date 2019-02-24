@@ -45,6 +45,10 @@ class _GeekListPageState extends State<GeekListPage> {
               ),
               centerTitle: false,
               collapseMode: CollapseMode.parallax,
+              background: Image.asset(
+                "assets/images/white_snake_5.jpeg",
+                fit: BoxFit.cover,
+              ),
             ),
           ),
           _buildGeekList(),

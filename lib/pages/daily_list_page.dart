@@ -2,12 +2,12 @@ import 'package:swiss_knife/util/toast_utils.dart';
 import 'package:swiss_knife/widgets/simple_double_column.dart';
 import 'package:flutter/material.dart';
 
-class LifeListPage extends StatefulWidget {
+class DailyListPage extends StatefulWidget {
   @override
-  _LifeListPageState createState() => _LifeListPageState();
+  _DailyListPageState createState() => _DailyListPageState();
 }
 
-class _LifeListPageState extends State<LifeListPage> {
+class _DailyListPageState extends State<DailyListPage> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -27,8 +27,8 @@ class _LifeListPageState extends State<LifeListPage> {
                       "生活",
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
-                    background: Image.network(
-                      "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tynysrgb&h=350",
+                    background: Image.asset(
+                      "assets/images/white_snake_2.jpeg",
                       fit: BoxFit.cover,
                     ),
                   ),

@@ -27,8 +27,8 @@ class _ToolsListPageState extends State<ToolsListPage> {
                       "工具",
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
-                    background: Image.network(
-                      "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tynysrgb&h=350",
+                    background: Image.asset(
+                      "assets/images/white_snake_3.jpeg",
                       fit: BoxFit.cover,
                     ),
                   ),
